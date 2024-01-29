@@ -56,8 +56,33 @@ footer{
     border-top: 1px solid rgba(0,0,0,.05);
     padding: 1em;
 }
+/* LAYOUT */
+.container {
+    border:1px solid red;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+.two-col-sidebar {
+    display: flex;
+
+}
+@media (min-width:768px) {
+    .two-col-sidebar {
+        display: grid;
+        grid-template-columns:25% 75 ;
+    }
+    .two-col-sidebar aside{
+        border-right: 10px solid rgba(0,0,0,rgba(0,0,0,.0.1))
+aside {
+    border: 1px solid green;
+    padding: 2em 0;
+}
+.primary {
+    border: 1px solid blue;
+}
 
 /* SOCIAL NAV */
+
 .social-nav ul {
     margin: 0;
     padding: 0;
@@ -93,7 +118,7 @@ footer{
 
 /* COURSE SECTION */
 .courses {
-    padding: 6em 1em;
+    padding: 6em 1em; 
     display: grid;
     justify-content: center;
 }
