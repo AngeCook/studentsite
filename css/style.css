@@ -106,6 +106,24 @@ footer{
     text-align: center;
 }
 
+/* STYLING FOR SUBPAGES */
+.page-sub.hero{
+    background-color: rgba(0,0,0,.0.1);
+    color: rgba(0,0,0,.8);
+}
+
+/* COURSEWORK SECTION */
+.coursework {
+    padding: 6em 1em; 
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projects {
+    margin: 2em;
+
+}
+
 
 /* FOR WEB DEV PURPOSES ONLY */
 /* body, * {
