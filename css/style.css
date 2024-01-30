@@ -136,10 +136,24 @@ footer{
     text-align: center;
 }
 
-/* STYLING FOR SUBPAGES */
+/* STYLING FOR SPECIFIC & SUBPAGES */
 .page-sub.hero{
     background-color: rgba(0,0,0,.0.1);
     color: rgba(0,0,0,.8);
+}
+.page-home .hero{   
+    background-image: url('../image/flowers.jpeg');   
+    background-size: cover;
+    background-position: center;  
+    padding: 30vh 1em 20vh 1em;
+}
+.page-home header { 
+    background: transparent;
+    position: absolute;
+    width: 100%;
+}
+.page-home header a { 
+    color: rgba (153,0,0,.8);
 }
 
 /* COURSEWORK SECTION */
