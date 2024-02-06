@@ -82,11 +82,11 @@ h6 {
  /* LINKS */
  a {
     color: rgba(0,0,153,.8)
-    text-decoration: none;
+    text-decoration= none;
 }
 a:hover {
     color: rgba(0,0,153,1)
-    text-decoration: underline;
+    text-decoration= underline;
 }
 
 /* HELPER CLASSES */
@@ -141,7 +141,8 @@ button {
 
     .button.alt:hover {
         border-color: rgba(0,0,153,1);
-        color: rgba(255,255,255,.1);
+        color: rgba(246, 240, 240, 0.982);
+        background-color: rgb(18, 1, 96);
 
 
     }
