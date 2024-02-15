@@ -1,5 +1,7 @@
  document.addEventListener('DOMContentLoaded' , function() {
 
     // JAVASCRIPT FUNCTIONS GO HERE
-    console.log('JS IS READY WOO HOO!');
+    console.log('Hello Class!');
+    console.log('Is this working?');
  });
+ 
