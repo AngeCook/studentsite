@@ -310,12 +310,13 @@ body.demo:before{
 /* STYLING FOR BOTH HEADER AND FOOTER */
 .site-header a,
 .site-footer a {
-    color: rgba (0,0,0,.8 );
+    color: rgba(0,0,0,.8 );
+    text-decoration: none;
 }
 .site-header a:hover,
 .site-footer a:hover {
-    color: rgba (0,0,0,.1);
-    text-decoration: none;
+    color: rgba(0,0,0,1);
+    
 }
 
 /* LOGO AREA */
@@ -342,8 +343,8 @@ body.demo:before{
     padding: 1em;
 }
 
-.site-nav .menu-button 
-    {display: none
+.site-nav .menu-button {
+    display: none;
 }
 
 /* SECTIONS */
@@ -357,15 +358,13 @@ section {
     text-align: center;
 }
 
-hero h1, p {
+.hero h1, 
+.hero p {
     max-width: 600px  ;
     margin-left: auto;
     margin-right: auto;
 }
-.hero p {
-   margin-left: auto; 
-   margin-right: auto;
-}
+
 .hero.container {
     padding: 0; 
     background-color: rgba(0,0,0,.1); 
