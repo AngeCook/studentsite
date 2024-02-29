@@ -380,8 +380,7 @@ section {
         text-align: right;
     }
     .toggle-nav .site-nav .menu-button {
-        display: block;
-        background: pink;
+        background: rgb(162, 161, 161);
         display: inline-block;
         cursor: pointer;
         padding: .3em .8em;
