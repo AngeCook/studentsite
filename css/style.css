@@ -71,10 +71,10 @@ footer{
 
     .two-col-sidebar {
         display: grid;
-        grid-template-columns:25% 75 ;
+        grid-template-columns:25% 75%;
     }
     .two-col-sidebar aside{
-        border-right: 10px solid rgba(0,0,0,rgba(0,0,0,.0.1))
+        border-right: 10px solid rgba(0,0,0,.1)
     }
     aside {
         border: 1px solid green;
@@ -139,7 +139,7 @@ footer{
 /* STYLING FOR SPECIFIC & SUBPAGES */
 
 .page-sub.hero{
-    background-color: rgba(0,0,0,.0.1);
+    background-color: rgba(0,0,0,0.1);
     color: rgba(0,0,0,.8);
 }
 .page-home .hero{   
@@ -155,7 +155,7 @@ footer{
     width: 100%;
 }
 .page-home header a { 
-    color: rgba (153,0,0,.8);
+    color: rgba(153,0,0,.8);
 }
 
 /* COURSEWORK SECTION */
