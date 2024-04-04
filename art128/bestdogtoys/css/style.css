@@ -287,26 +287,24 @@ body.demo:before{
         margin-right: 2%;
     }
 
-    .row > .column.one-half {
-        max-width: 46%;
-
+    .row > .column.one-third {
+        max-width: 29.3333%;              
     }
     .row > .column.one-third {
         max-width: 29.3333%;              
     }
-    .row > .column.two-thirds {
-        max-width: 62.6666%;              
+    .row > .column.one-third {
+        max-width: 29.3333%;              
     }
-    .row > .column.one-fourth {
-        max-width: 21%;
-    }
+    
 
     .row > .column.centered {
         margin-left: auto;
         margin-right: auto                         ;
     }
-
 }
+
+
 
 /* FOR DEMO PURPOSES ONLY */
 .demo .column {
