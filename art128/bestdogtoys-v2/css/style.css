@@ -38,7 +38,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     color: rgba(0,0,0,.8);
-   
+
 }
 /* @media (min-width: 768px) {
     
@@ -55,39 +55,7 @@ body {
     }
 
 }
-/* BACKGROUND WAVES */
-body {
-    background-image: url(../img/orangewave.svg);
-    background-repeat: no-repeat;
-}
-#toys-indoor {
-    background-image: url(../img/bluewave.svg);
-    background-size: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 25%;
-}
-#toys-outdoor {
-    background-image: url(../img/yellowwave.svg);
-    background-size: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 25%;
-}
-#toys-interactive {
-    background-image: url(../img/orangewave.svg);
-    background-size: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 25%;
-}
-#toys-chew {
-    background-image: url(../img/bluewave.svg);
-    background-size: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 25%;
-}
+
 /* HEADINGS */
 /* 
     Based on a Traditional Typographic Scale
